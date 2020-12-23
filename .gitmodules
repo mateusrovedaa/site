@@ -1,6 +1,3 @@
 [submodule "themes/vitae"]
 	path = themes/vitae
 	url = https://github.com/dataCobra/hugo-vitae.git
-[submodule "static/admin"]
-	path = static/admin
-	url = https://github.com/woliveiras/netlify-cms-base.git
