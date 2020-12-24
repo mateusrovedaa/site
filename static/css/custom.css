@@ -2,6 +2,10 @@ a {
     color: #345CA2;
 }
 
+footer {
+    color: #000000;
+}
+
 footer a:hover {
     color: #345CA2;
-  }
+}
