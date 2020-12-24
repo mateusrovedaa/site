@@ -1,5 +1,6 @@
 ---
 title: Hello World!
+url: /post/hello-world
 author: Mateus Roveda
 date: '2020-12-23'
 categorias:
