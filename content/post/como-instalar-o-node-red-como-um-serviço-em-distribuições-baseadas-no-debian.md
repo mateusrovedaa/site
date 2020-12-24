@@ -1,5 +1,6 @@
 ---
 title: Como instalar o Node-RED como um serviço em distribuições baseadas no Debian
+author: Mateus Roveda
 date: '2020-12-24T10:05:51-03:00'
 categorias:
   - node-red
@@ -7,7 +8,6 @@ tags:
   - sysadmin
   - devops
   - debian
-author: "Mateus Roveda"
 ---
 O Node-RED vem crescendo e expandindo suas fronteiras na utilização em integrações e automações. Seu principal diferencial é ser uma ferramenta low-code, tendo uma curva de aprendizado bem baixa e podendo ser utilizada para muitas aplicações.
 
@@ -101,3 +101,5 @@ A remoção do Node-RED é simples, mesmo como instalado como um serviço.
    ```
    find / | grep nodered
    ```
+
+// see you later
