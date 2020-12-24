@@ -13,6 +13,11 @@ O Node-RED vem crescendo e expandindo suas fronteiras na utilização em integra
 No canal onde eu produzo vídeos, [ROVEEb](https://www.youtube.com/roveeb), estou construindo uma série de vídeos onde irei mostrar do início a construção de um bot que notifica no Telegram a cada vídeo novo postado no Youtube, facilitando assim a interação, reduzindo meu esforço em divulgação e construindo um processo com menos falhas.
 Nesse post, vou ensinar (transcrever) o que ensinei na Aula 02 dessa série, ou seja, a instalação do Node-RED em distribuições baseadas no Debian (Ubuntu, por exemplo) como um serviço, podendo assim ser utilizado em servidores.
 
+Caso você prefira, pode assistir o tutorial feito em vídeo.
+<div align="center">
+<iframe width="640" height="360" src="https://www.youtube.com/embed/TVU_qkelFmU?start=171" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 # Instalar o Node-RED
 
 A instalação será feita utilizando um script disponibilizado na própria [documentação](https://nodered.org/docs/getting-started/raspberrypi) do Node-RED.
@@ -84,12 +89,14 @@ A remoção do Node-RED é simples, mesmo como instalado como um serviço.
    ```
 
 5. Remova a pasta do Node-RED (se a instalação foi como usuário root, a pasta se encontra na home desse usuário).
+
    ```
    sudo su -
    rm -rf ~/.node-red
    ```
 
 6. Rode o comando find para encontrar se ainda existem pastas ou arquivos relacionados ao Node-RED. Caso existam, basta remove-las.
+
    ```
    find / | grep nodered
    ```
