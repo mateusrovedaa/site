@@ -135,3 +135,7 @@ url = "mailto:mateus@roveda.dev"
 name = "RSS"
 icon = "fas fa-rss"
 url = "/index.xml"
+
+# Show raw HTML omitted
+[markup.goldmark.renderer]
+unsafe = true
