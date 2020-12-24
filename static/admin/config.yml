@@ -34,12 +34,6 @@ collections:
         name: "tags"
         required: true
         widget: "list"
-
-      - label: "Auto Thumbnail Image"
-        name: "autoThumbnailImage"
-        required: false
-        widget: "boolean"
-        default: false
         
       - label: "Body"
         name: "body"
