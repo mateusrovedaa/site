@@ -13,6 +13,7 @@ git clone https://github.com/mateusrovedaa/site.git
 
 ## Uso
 ```
+cd site/
 hugo server -D
 ```
 
