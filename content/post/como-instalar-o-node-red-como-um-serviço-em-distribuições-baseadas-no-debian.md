@@ -15,9 +15,9 @@ No canal onde eu produzo vídeos, [ROVEEb](https://www.youtube.com/roveeb), esto
 Nesse post, vou ensinar (transcrever) o que ensinei na Aula 02 dessa série, ou seja, a instalação do Node-RED em distribuições baseadas no Debian (Ubuntu, por exemplo) como um serviço, podendo assim ser utilizado em servidores.
 
 Caso você prefira, pode assistir o tutorial feito em vídeo.
-<div align="center">
-<iframe width="640" height="360" src="https://www.youtube.com/embed/TVU_qkelFmU?start=171" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+{{< youtube TVU_qkelFmU >}}
+
+<br>
 
 # Instalar o Node-RED
 
