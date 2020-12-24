@@ -4,9 +4,10 @@ description = "Um pouco mais sobre mim"
 date = "2020-12-23"
 aliases = ["about-us"]
 author = "Mateus Roveda"
+commentable = false
 +++
 
-![Minha imagem](../img/me.jpg "Me")
+![Minha imagem](../../img/me.jpg "Me")
 
 Olá, meu nome é Mateus Roveda e esse é o lugar onde eu mantenho postagens sobre assuntos que gosto e que tenho contato.
 
