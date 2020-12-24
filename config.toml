@@ -37,7 +37,7 @@ googleAnalytics = ""
 	subtitle = "Um pouco de tudo sobre tecnologia e outros trecos"
 
 	# Activate to show authors on pages if available
-	#listAuthor = true
+	listAuthor = true
 
 	# Add math typesetting with KaTeX (Global with this Param)
 	math = true

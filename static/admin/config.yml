@@ -20,6 +20,12 @@ collections:
         name: "title"
         widget: "string"
 
+      - label: "Autor"
+        name: "author"
+        required: true
+        default: "Mateus Roveda"
+        widget: "string"
+
       - label: "Data de publicação"
         name: "date"
         required: true

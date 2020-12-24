@@ -3,7 +3,6 @@ title = "Sobre"
 description = "Um pouco mais sobre mim"
 date = "2020-12-23"
 aliases = ["about-us"]
-author = "Mateus Roveda"
 commentable = false
 +++
 
