@@ -1,4 +1,4 @@
-# Site pessoal
+# Blog pessoal
 
 Esse repositório contém o código fonte do website [roveda.dev](roveda.dev), que foi construido utilizando as seguintes ferramentas:
 * Hugo
