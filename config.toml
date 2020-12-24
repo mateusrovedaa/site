@@ -7,7 +7,7 @@ theme = "vitae"
 paginate = 5
 enableRobotsTXT = true
 
-copyright = "© Copyright notice | [Vitae](https://github.com/dataCobra/hugo-vitae) theme for [Hugo](https://gohugo.io)"
+copyright = "© Copyright | Mateus Roveda | [Vitae](https://github.com/dataCobra/hugo-vitae) theme for [Hugo](https://gohugo.io)"
 
 pygmentsstyle = "colorful"
 pygmentscodefences = true
@@ -17,7 +17,7 @@ googleAnalytics = ""
 
 [taxonomies]
 	tag = "tags"
-	category = "categories"
+	category = "categorias"
 	series = "series"
 
 [params]
@@ -25,7 +25,7 @@ googleAnalytics = ""
 	homepage = false
 
 	# Add meta keywords in head part (Site Keywords or Tags of Page)
-	keywords = ["hugo","vitae","theme","static"]
+	keywords = ["roveeb","Mateus Roveda","roveda","tecnologia", "tutoriais"]
 
 	# Add meta description in head part
 	description = "Um pouco de tudo sobre tecnologia e outros trecos"
@@ -43,13 +43,13 @@ googleAnalytics = ""
 	math = true
 
 	# Optional 80x80 avatar image.
-	avatar = "/img/vitae.jpg"
+	#avatar = "/img/vitae.jpg"
 
 	# Optional favicons for website
-	#favicon = true
+	favicon = true
 
 	# Add list of sections that should show up on the homepage
-        mainSections = ["post"]
+    mainSections = ["post"]
 
 	# Add list of Sections/Types that should no be considered by RSS
 	#nofeedSections = ["post"]
@@ -58,7 +58,7 @@ googleAnalytics = ""
 	#disableTaxoTypes = [""]
 
 	# Custom CSS applied to default styles. (Path could be "static/css/")
-	#customCSS = "css/custom.css"
+	customCSS = "css/custom.css"
 
 # Comments
 [params.comments]
@@ -71,10 +71,10 @@ enabled = true
 engine = "disqus"
 
 # Content types to disable comments on.
-#disableOnTypes = ["page"]
+disableOnTypes = ["page"]
 
 [params.comments.disqus]
-#shortname = "" # Paste the shortname from your Disqus dashboard.
+shortname = "roveda" # Paste the shortname from your Disqus dashboard.
 
 [params.comments.commento]
 #host = "" # Paste the domain of you commento.io system
@@ -102,7 +102,7 @@ weight = 4
 
 [[menu.main]]
 name = "Categorias"
-url = "/categories"
+url = "/categorias"
 weight = 5
 
 # Social Menu
@@ -111,10 +111,25 @@ name = "Github"
 icon = "fab fa-github"
 url = "https://github.com/mateusrovedaa"
 
-#[[params.social]]
-#name = "Email"
-#icon = "fas fa-envelope"
-#cmd = "mailto:mateus@roveda.dev"
+[[params.social]]
+name = "Youtube"
+icon = "fab fa-youtube"
+url = "https://youtube.com/ROVEEb"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fab fa-linkedin"
+url = "https://www.linkedin.com/in/mateusrovedaa/"
+
+[[params.social]]
+name = "Twitter"
+icon = "fab fa-twitter"
+url = "https://twitter.com/mateusrovedaa"
+
+[[params.social]]
+name = "Email"
+icon = "fas fa-envelope"
+url = "mailto:mateus@roveda.dev"
 
 [[params.social]]
 name = "RSS"

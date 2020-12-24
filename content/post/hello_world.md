@@ -1,6 +1,13 @@
----
-title: "Hello_world"
-date: 2020-12-23T19:59:40-03:00
-draft: false
----
++++
+title = "Hello World!"
+date = "2020-12-23"
+draft = false
+tags = [
+    "hello",
+]
+categorias = [
+    "miscelania",
+]
++++
 
+Hello World, new blog!
