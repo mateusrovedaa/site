@@ -6,6 +6,7 @@ author: Mateus Roveda
 date: '2020-12-24T10:05:51-03:00'
 categorias:
   - node-red
+  - software livre
 tags:
   - sysadmin
   - devops
